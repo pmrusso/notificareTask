@@ -1,0 +1,6 @@
+framework module Pods_pushMapTest {
+  umbrella header "Pods-pushMapTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

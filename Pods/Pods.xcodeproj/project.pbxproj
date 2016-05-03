@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53ECD8C899D53C49922C813CBE2E0A01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		6E909B9C2F132397DC8FCD04D813B892 /* Pods-pushMapTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC208E2101A3BF8B7E9987B5AF857A2 /* Pods-pushMapTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7253EABE3625178DF2D1A221769D2C5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		AF89896679A66B63333B6D5B09EEC010 /* Pods-pushMapTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 193FCD191DDC437D373C7F4EFA5C382A /* Pods-pushMapTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2891C5717C802D306E9FC69C90911B6 /* Pods-pushMapTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D082C5D36C707C45236703631DDA5 /* Pods-pushMapTestTests-dummy.m */; };
+		B723925091FD4B663BDB5913C827274C /* Pods-pushMapTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ED653AFFAA1660B0C4B9C512ABB17F /* Pods-pushMapTest-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00D6FF96822630ED87EA97C5D20EE505 /* NotificareLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareLocation.h; path = Notificare/NotificarePushLib/Types/Map/NotificareLocation.h; sourceTree = "<group>"; };
+		00EB988718D856E5283B095151C4DA5D /* Pods_pushMapTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pushMapTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0344BFE235C4BF84FCD3462291EDE421 /* NotificareReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareReachability.h; path = Notificare/NotificarePushLib/Libraries/MKNetworkKit/Reachability/NotificareReachability.h; sourceTree = "<group>"; };
+		054B87D056CF413E3607E76DCA6E45B4 /* NotificareNXOAuth2FileStreamWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2FileStreamWrapper.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2FileStreamWrapper.h; sourceTree = "<group>"; };
+		07583FF0B66A57054D62146D99B23D88 /* NotificareNXOAuth2Connection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2Connection.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2Connection.h; sourceTree = "<group>"; };
+		0806BF6D6F69C86170DA972018E35B89 /* DefaultTheme.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = DefaultTheme.bundle; sourceTree = "<group>"; };
+		08920AFB504025A7F0522DCF14D2DA6A /* NotificareUserPreference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareUserPreference.h; path = Notificare/NotificarePushLib/Models/NotificareUserPreference.h; sourceTree = "<group>"; };
+		08E7D92A23664EB7B998A405FF97567E /* NotificarePass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificarePass.h; path = Notificare/NotificarePushLib/Models/NotificarePass.h; sourceTree = "<group>"; };
+		0A1408E65B54693F2743D26A377DC751 /* UIImageView+NotificareMKNetworkKitAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+NotificareMKNetworkKitAdditions.h"; path = "Notificare/NotificarePushLib/Libraries/MKNetworkKit/Categories/UIImageView+NotificareMKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		132693AD97156C14129F965463FF37E8 /* NotificareCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareCallback.h; path = Notificare/NotificarePushLib/Actions/Callback/NotificareCallback.h; sourceTree = "<group>"; };
+		1419A2B8D0A14EDAEA65A662A1C23296 /* NotificareMail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareMail.h; path = Notificare/NotificarePushLib/Actions/Mail/NotificareMail.h; sourceTree = "<group>"; };
+		15B4F3F7B556D4B8D094F7F0F3838811 /* NotificareNXOAuth2Request.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2Request.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2Request.h; sourceTree = "<group>"; };
+		193FCD191DDC437D373C7F4EFA5C382A /* Pods-pushMapTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pushMapTest-umbrella.h"; sourceTree = "<group>"; };
+		1A2BEA4AC5726F26CA0DE7D328C092B9 /* NSData+NotificareNXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+NotificareNXOAuth2.h"; path = "Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NSData+NotificareNXOAuth2.h"; sourceTree = "<group>"; };
+		2848CE8A9E534B7F13413CB525B1C916 /* NSString+FromBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FromBundle.h"; path = "Notificare/NotificarePushLib/Shared/NSString+FromBundle.h"; sourceTree = "<group>"; };
+		2B1C062655EABF7164664DBE65BDA8A0 /* Pods-pushMapTestTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pushMapTestTests-frameworks.sh"; sourceTree = "<group>"; };
+		32C6D9A5F7C3F2B9AA25F8D40DCF2616 /* NotificareNXOAuth2ConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2ConnectionDelegate.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2ConnectionDelegate.h; sourceTree = "<group>"; };
+		33CB3950188569B478EFA3DE4E266D7F /* NotificareInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareInbox.h; path = Notificare/NotificarePushLib/Types/Inbox/NotificareInbox.h; sourceTree = "<group>"; };
+		378D082C5D36C707C45236703631DDA5 /* Pods-pushMapTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pushMapTestTests-dummy.m"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A7BC09B0E78A182568FEC06C52E322D /* NotificareMKNetworkEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareMKNetworkEngine.h; path = Notificare/NotificarePushLib/Libraries/MKNetworkKit/NotificareMKNetworkEngine.h; sourceTree = "<group>"; };
+		3BB722F4B6B66B9AB41F64EB7C356475 /* NSData+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Hex.h"; path = "Notificare/NotificarePushLib/Shared/NSData+Hex.h"; sourceTree = "<group>"; };
+		3E6BE4FAEBCB00073091DECE329BC84E /* NotificareNXOAuth2Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2Constants.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2Constants.h; sourceTree = "<group>"; };
+		3ECB564D601F058F1E4BB8EA2F36FD62 /* NSString+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "Notificare/NotificarePushLib/Shared/NSString+Utils.h"; sourceTree = "<group>"; };
+		40F4AD8140B99C61D45C4E323170E527 /* NotificareAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAsset.h; path = Notificare/NotificarePushLib/Models/NotificareAsset.h; sourceTree = "<group>"; };
+		42076AFBCBB9A51FEF000D14B8C1BD70 /* NotificareInboxViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareInboxViewController.h; path = Notificare/NotificarePushLib/Types/UserPreferences/NotificareInboxViewController.h; sourceTree = "<group>"; };
+		4411B02DA35B5367E0BB53ED7B534819 /* NotificareBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareBeacon.h; path = Notificare/NotificarePushLib/Models/NotificareBeacon.h; sourceTree = "<group>"; };
+		451AB5A3ADB662B93945C49DB8EC79D3 /* Pods-pushMapTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pushMapTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4896BC542757D1200B5902AA4404989F /* NotificareURLScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareURLScheme.h; path = Notificare/NotificarePushLib/Types/URLScheme/NotificareURLScheme.h; sourceTree = "<group>"; };
+		494CA2BD1CE45B013143D1E5AF64BDAB /* NotificareUserPreferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareUserPreferences.h; path = Notificare/NotificarePushLib/Types/UserPreferences/NotificareUserPreferences.h; sourceTree = "<group>"; };
+		4BCF12BAEF64F54A933AE34FEE6E7CC1 /* NotificareProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareProduct.h; path = Notificare/NotificarePushLib/Models/NotificareProduct.h; sourceTree = "<group>"; };
+		504CFAA4A51E716872632B7775819626 /* NotificareActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareActions.h; path = Notificare/NotificarePushLib/NotificareActions.h; sourceTree = "<group>"; };
+		529E3ABA91320EF87DBC667B5A5FDA0F /* NSString+NotificareMKNetworkKitAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+NotificareMKNetworkKitAdditions.h"; path = "Notificare/NotificarePushLib/Libraries/MKNetworkKit/Categories/NSString+NotificareMKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		539644171AF70E6ADB34D50E7CE6E21E /* NotificareSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareSegment.h; path = Notificare/NotificarePushLib/Models/NotificareSegment.h; sourceTree = "<group>"; };
+		54AB01AE077408CEC95747D2D3DB564B /* NotificareNXOAuth2PostBodyStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2PostBodyStream.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2PostBodyStream.h; sourceTree = "<group>"; };
+		54F0C2709F9660D007471404C20BEAAB /* Pods-pushMapTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pushMapTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60325B75CC73A8D4DEBE7B798F3D98DF /* Pods-pushMapTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pushMapTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		60AF70DAE42F3B70A87A9D4578B091D9 /* NotificareNXOAuth2Account.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2Account.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2Account.h; sourceTree = "<group>"; };
+		66010ED97AEAFFE11000E97F28C1A805 /* NotificareMKNetworkKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareMKNetworkKit.h; path = Notificare/NotificarePushLib/Libraries/MKNetworkKit/NotificareMKNetworkKit.h; sourceTree = "<group>"; };
+		68D270AF92565412756C84308C72AC95 /* NotificareNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNotification.h; path = Notificare/NotificarePushLib/Models/NotificareNotification.h; sourceTree = "<group>"; };
+		6B20812A9C20922453FD84F6E6A4F3F4 /* NotificareMKNetworkOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareMKNetworkOperation.h; path = Notificare/NotificarePushLib/Libraries/MKNetworkKit/NotificareMKNetworkOperation.h; sourceTree = "<group>"; };
+		6ECD25F0783AF146C2D15F9497CFFA4C /* ActionType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionType.h; path = Notificare/NotificarePushLib/Actions/ActionType.h; sourceTree = "<group>"; };
+		71B900F8C32071DB29C364F42D9A71B9 /* NotificareEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareEngine.h; path = Notificare/NotificarePushLib/NotificareEngine.h; sourceTree = "<group>"; };
+		741868E82DF61F7005EB10296B5CA397 /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = Notificare/NotificarePushLib/Libraries/SocketRocket/base64.h; sourceTree = "<group>"; };
+		754550C5F7BD58E3FDA9F260DD2DD36C /* NotificareNXOAuth2PostBodyPart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2PostBodyPart.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2PostBodyPart.h; sourceTree = "<group>"; };
+		78616F647B9979B705F6A1B55B402F37 /* Pods_pushMapTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pushMapTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BA00DA9C4913FD6216AB6CBD816BDF /* NotificareNone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNone.h; path = Notificare/NotificarePushLib/Types/None/NotificareNone.h; sourceTree = "<group>"; };
+		7B2F8F7B3BFA3560A3690DA0CF18F40B /* UIAlertView+NotificareMKNetworkKitAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+NotificareMKNetworkKitAdditions.h"; path = "Notificare/NotificarePushLib/Libraries/MKNetworkKit/Categories/UIAlertView+NotificareMKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		8054F2691ECA1C848233F8FC73911E8D /* NotificareBeaconsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareBeaconsViewController.h; path = Notificare/NotificarePushLib/Types/UserPreferences/NotificareBeaconsViewController.h; sourceTree = "<group>"; };
+		84217D74F55D51685E8B165C3932BF60 /* NotificareAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAlert.h; path = Notificare/NotificarePushLib/Types/Alert/NotificareAlert.h; sourceTree = "<group>"; };
+		85024853C32D949DC7AAE73AEE932483 /* NotificareBeacons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareBeacons.h; path = Notificare/NotificarePushLib/Types/Beacons/NotificareBeacons.h; sourceTree = "<group>"; };
+		85C8425ACA5564A32C1655682243B80B /* Pods-pushMapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pushMapTest.release.xcconfig"; sourceTree = "<group>"; };
+		874BAFD5612E239AC6747E4C4222D034 /* NotificareNXOAuth2AccessToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2AccessToken.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2AccessToken.h; sourceTree = "<group>"; };
+		88CC705B7D23889EB29C78FE2226E966 /* NotificareNXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2.h; sourceTree = "<group>"; };
+		8F3D64C9300E2398277F2A2674B6B540 /* NotificationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificationType.h; path = Notificare/NotificarePushLib/Types/NotificationType.h; sourceTree = "<group>"; };
+		90B83E867125DB122E3EE7C65FC555D0 /* Pods-pushMapTestTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pushMapTestTests-resources.sh"; sourceTree = "<group>"; };
+		9365D1CDFC8FFAB5B6883663D96F6F28 /* NotificareImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareImage.h; path = Notificare/NotificarePushLib/Types/Image/NotificareImage.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941F0860B099DC2D8169BC0C9E5E4442 /* NotificareMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareMap.h; path = Notificare/NotificarePushLib/Types/Map/NotificareMap.h; sourceTree = "<group>"; };
+		995579F7AC45815214F9C8D2FBBC0804 /* NotificareBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareBrowser.h; path = Notificare/NotificarePushLib/Actions/Browser/NotificareBrowser.h; sourceTree = "<group>"; };
+		9A67D2ED2AF401546C67191BC4DB4A97 /* NotificareURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareURL.h; path = Notificare/NotificarePushLib/Types/URL/NotificareURL.h; sourceTree = "<group>"; };
+		9BBEBEF2596AB8440F5BBE3CCA4FFD7D /* NotificationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificationDelegate.h; path = Notificare/NotificarePushLib/Types/NotificationDelegate.h; sourceTree = "<group>"; };
+		9E285FC9BA75D8EDBAD36D04BBAB2DC1 /* NotificareWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareWebView.h; path = Notificare/NotificarePushLib/Types/WebView/NotificareWebView.h; sourceTree = "<group>"; };
+		9E343531F3BEE498976B8F15D8C860C9 /* NotificareSRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareSRWebSocket.h; path = Notificare/NotificarePushLib/Libraries/SocketRocket/NotificareSRWebSocket.h; sourceTree = "<group>"; };
+		A05F8A4C5EF2D4D9BF21ADEEB13E4B29 /* Pods-pushMapTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pushMapTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A146DCE8C4C22DB953334E8CECFE9328 /* NotificareSMS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareSMS.h; path = Notificare/NotificarePushLib/Actions/SMS/NotificareSMS.h; sourceTree = "<group>"; };
+		A453499B5C1C9C08CAF0A2A8A917C86A /* SKProduct+priceAsString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKProduct+priceAsString.h"; path = "Notificare/NotificarePushLib/Shared/SKProduct+priceAsString.h"; sourceTree = "<group>"; };
+		A78CFB75306697E1FC4408AFE156FB81 /* NotificareNXOAuth2Client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2Client.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2Client.h; sourceTree = "<group>"; };
+		A969400D1AFBAF7F1ABF6988492980F8 /* NSDate+NotificareRFC1123.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+NotificareRFC1123.h"; path = "Notificare/NotificarePushLib/Libraries/MKNetworkKit/Categories/NSDate+NotificareRFC1123.h"; sourceTree = "<group>"; };
+		AB688A55A00273D83CBA371CC6F1660E /* NotificareVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareVideo.h; path = Notificare/NotificarePushLib/Types/Video/NotificareVideo.h; sourceTree = "<group>"; };
+		AC7134FD50EFF644C2275CCA41BD60C2 /* NotificareForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareForm.h; path = Notificare/NotificarePushLib/Types/Form/NotificareForm.h; sourceTree = "<group>"; };
+		AC87C682D66C5B246EE3CCCFE7BAE9B6 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+TimeAgo.h"; path = "Notificare/NotificarePushLib/Shared/NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		AE3C99E939D4F23178EA21051DB72106 /* NotificareTelephone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareTelephone.h; path = Notificare/NotificarePushLib/Actions/Telephone/NotificareTelephone.h; sourceTree = "<group>"; };
+		AE3F4F05AB8F1A037D7EEF1DCA890EAE /* NotificareContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareContent.h; path = Notificare/NotificarePushLib/Models/NotificareContent.h; sourceTree = "<group>"; };
+		B13EC8C385ECFAA5969D6CC21FC64E18 /* NotificareUserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareUserViewController.h; path = Notificare/NotificarePushLib/Types/UserPreferences/NotificareUserViewController.h; sourceTree = "<group>"; };
+		B6B3DD71BE9FA039AF85A7B20B1D6F7B /* NotificareAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAction.h; path = Notificare/NotificarePushLib/Models/NotificareAction.h; sourceTree = "<group>"; };
+		B78955D5E46C616023AE7AAA82782591 /* Notificare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Notificare.h; path = Notificare/NotificarePushLib/Notificare.h; sourceTree = "<group>"; };
+		B7ECC02E3E1F582445CF2598D49A03CE /* Pods-pushMapTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pushMapTest-frameworks.sh"; sourceTree = "<group>"; };
+		B8789DBEEB1EA981641A54B2F8519312 /* ActionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionDelegate.h; path = Notificare/NotificarePushLib/Actions/ActionDelegate.h; sourceTree = "<group>"; };
+		B8DD7EE50EB856E0BBD5446C9B43A710 /* NotificareCustom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareCustom.h; path = Notificare/NotificarePushLib/Actions/Custom/NotificareCustom.h; sourceTree = "<group>"; };
+		B9E0AC8268552BE54A4238C6F8B2E891 /* NotificareDeviceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareDeviceViewController.h; path = Notificare/NotificarePushLib/Types/UserPreferences/NotificareDeviceViewController.h; sourceTree = "<group>"; };
+		BA33A1EF07E33AF0BB311C0E411AA802 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF48AB65D3A13B487F347B5BC715140 /* UIImage+FromBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FromBundle.h"; path = "Notificare/NotificarePushLib/Shared/UIImage+FromBundle.h"; sourceTree = "<group>"; };
+		BC441682F2DF1C91B92991BFFD27E231 /* Pods-pushMapTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pushMapTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C06393521469BCF778E3CF77035B1C3C /* NotificareAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareAttachment.h; path = Notificare/NotificarePushLib/Models/NotificareAttachment.h; sourceTree = "<group>"; };
+		C21C78892704866125C73BAF1D3860BA /* Pods-pushMapTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-pushMapTestTests.modulemap"; sourceTree = "<group>"; };
+		C4967D446C45A2C79FD74B94F4DFDBA7 /* NotificareDeviceInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareDeviceInbox.h; path = Notificare/NotificarePushLib/Models/NotificareDeviceInbox.h; sourceTree = "<group>"; };
+		C5F2DF15A6BB2D0EB0195656F60098E4 /* NSData+NotificareSRB64Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+NotificareSRB64Additions.h"; path = "Notificare/NotificarePushLib/Libraries/SocketRocket/NSData+NotificareSRB64Additions.h"; sourceTree = "<group>"; };
+		C710C43EC44F5AC7C62EAF4F105E7AE7 /* NotificareDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareDevice.h; path = Notificare/NotificarePushLib/Models/NotificareDevice.h; sourceTree = "<group>"; };
+		CDC208E2101A3BF8B7E9987B5AF857A2 /* Pods-pushMapTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pushMapTestTests-umbrella.h"; sourceTree = "<group>"; };
+		CE21EEDBC72AF76BC2807F209E5D52C1 /* NotificareNXOAuth2ClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2ClientDelegate.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2ClientDelegate.h; sourceTree = "<group>"; };
+		CE86C39FA58CCA6800DE1D636F306924 /* NotificareNXOAuth2Account+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NotificareNXOAuth2Account+Private.h"; path = "Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2Account+Private.h"; sourceTree = "<group>"; };
+		D0179AED5CA576284A69CCC1D5C06303 /* NSURL+NotificareNXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+NotificareNXOAuth2.h"; path = "Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NSURL+NotificareNXOAuth2.h"; sourceTree = "<group>"; };
+		D0383B7BBE9F3C471BFB6B313BB50D83 /* NSData+NotificareMKBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+NotificareMKBase64.h"; path = "Notificare/NotificarePushLib/Libraries/MKNetworkKit/Categories/NSData+NotificareMKBase64.h"; sourceTree = "<group>"; };
+		D10D06ADA952866576B984C72563FBBC /* NotificareUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareUser.h; path = Notificare/NotificarePushLib/Models/NotificareUser.h; sourceTree = "<group>"; };
+		D1D994D50BC20FF853485557FD7AEAFB /* Pods-pushMapTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-pushMapTest.modulemap"; sourceTree = "<group>"; };
+		D23BEFCFCF7AF55EB76FB265BDBBA2A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7ED653AFFAA1660B0C4B9C512ABB17F /* Pods-pushMapTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pushMapTest-dummy.m"; sourceTree = "<group>"; };
+		D8AE4547A7454CB99DC2BF1DBE54C09C /* NSDictionary+NotificareRequestEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+NotificareRequestEncoding.h"; path = "Notificare/NotificarePushLib/Libraries/MKNetworkKit/Categories/NSDictionary+NotificareRequestEncoding.h"; sourceTree = "<group>"; };
+		DDD7402570F9D44198EE3DB9C8A7EDE0 /* Pods-pushMapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pushMapTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D24A6004E0EB2321F5F4943A571E7F /* NotificarePassbookViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificarePassbookViewController.h; path = Notificare/NotificarePushLib/Types/UserPreferences/NotificarePassbookViewController.h; sourceTree = "<group>"; };
+		EEBAF8D82793E6CB03DDBDA4288817DD /* NotificareApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareApp.h; path = Notificare/NotificarePushLib/Actions/App/NotificareApp.h; sourceTree = "<group>"; };
+		F0D294EF11707E417A7F7F6526C709AF /* Pods-pushMapTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pushMapTest-resources.sh"; sourceTree = "<group>"; };
+		F214014F7F788B0DC9439D3A4167C627 /* NotificareRate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareRate.h; path = Notificare/NotificarePushLib/Types/Rate/NotificareRate.h; sourceTree = "<group>"; };
+		F2F5716A96AF61D9573799F4CD92EBFE /* NotificarePushLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificarePushLib.h; path = Notificare/NotificarePushLib/NotificarePushLib.h; sourceTree = "<group>"; };
+		F6A9C78678318C5F5E501D04ADF79C52 /* NSDictionary+FromPlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+FromPlist.h"; path = "Notificare/NotificarePushLib/Shared/NSDictionary+FromPlist.h"; sourceTree = "<group>"; };
+		F88D038DAA1D9759CADD7CD14A067A3C /* Pods-pushMapTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pushMapTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB9EDB3929B713A23A6338130AF10EDB /* NotificarePassbook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificarePassbook.h; path = Notificare/NotificarePushLib/Types/Passbook/NotificarePassbook.h; sourceTree = "<group>"; };
+		FBC6F3B2CB3181422CBF7BA0EDABC74C /* NotificareNXOAuth2AccountStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2AccountStore.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2AccountStore.h; sourceTree = "<group>"; };
+		FDB607A122062BFEEC31BC2935E91C98 /* NotificareNXOAuth2TrustDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NotificareNXOAuth2TrustDelegate.h; path = Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NotificareNXOAuth2TrustDelegate.h; sourceTree = "<group>"; };
+		FDBAD08D7BDB15BF053232D985E8FFB9 /* NSString+NotificareNXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+NotificareNXOAuth2.h"; path = "Notificare/NotificarePushLib/Libraries/NXOAuth2Client/NSString+NotificareNXOAuth2.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02DDAB2FB392DCB7C5BEFFC08670E2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7253EABE3625178DF2D1A221769D2C5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091C59F632D9E33B756BD5EFFA3F6363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53ECD8C899D53C49922C813CBE2E0A01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1A3685BE9C1128DA2BB867918985D306 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6D540B60D1CC8D5BE61931CE30141D9 /* Pods-pushMapTest */,
+				B00A0E6D8960D7F0464900205AC6AEB5 /* Pods-pushMapTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C5DD8197F51C5C7C2E58C14C7336517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFA0E690234CC882466FB4BFC99093EF /* notificare-push-lib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1C5DD8197F51C5C7C2E58C14C7336517 /* Pods */,
+				E8E5F2A212A05770400F26EC3A9A7CC2 /* Products */,
+				1A3685BE9C1128DA2BB867918985D306 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B00A0E6D8960D7F0464900205AC6AEB5 /* Pods-pushMapTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D23BEFCFCF7AF55EB76FB265BDBBA2A1 /* Info.plist */,
+				C21C78892704866125C73BAF1D3860BA /* Pods-pushMapTestTests.modulemap */,
+				F88D038DAA1D9759CADD7CD14A067A3C /* Pods-pushMapTestTests-acknowledgements.markdown */,
+				451AB5A3ADB662B93945C49DB8EC79D3 /* Pods-pushMapTestTests-acknowledgements.plist */,
+				378D082C5D36C707C45236703631DDA5 /* Pods-pushMapTestTests-dummy.m */,
+				2B1C062655EABF7164664DBE65BDA8A0 /* Pods-pushMapTestTests-frameworks.sh */,
+				90B83E867125DB122E3EE7C65FC555D0 /* Pods-pushMapTestTests-resources.sh */,
+				CDC208E2101A3BF8B7E9987B5AF857A2 /* Pods-pushMapTestTests-umbrella.h */,
+				54F0C2709F9660D007471404C20BEAAB /* Pods-pushMapTestTests.debug.xcconfig */,
+				BC441682F2DF1C91B92991BFFD27E231 /* Pods-pushMapTestTests.release.xcconfig */,
+			);
+			name = "Pods-pushMapTestTests";
+			path = "Target Support Files/Pods-pushMapTestTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C47B453E92CB1C2C8AF88EB3ECF836C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0806BF6D6F69C86170DA972018E35B89 /* DefaultTheme.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CFA0E690234CC882466FB4BFC99093EF /* notificare-push-lib */ = {
+			isa = PBXGroup;
+			children = (
+				B8789DBEEB1EA981641A54B2F8519312 /* ActionDelegate.h */,
+				6ECD25F0783AF146C2D15F9497CFFA4C /* ActionType.h */,
+				741868E82DF61F7005EB10296B5CA397 /* base64.h */,
+				B78955D5E46C616023AE7AAA82782591 /* Notificare.h */,
+				B6B3DD71BE9FA039AF85A7B20B1D6F7B /* NotificareAction.h */,
+				504CFAA4A51E716872632B7775819626 /* NotificareActions.h */,
+				84217D74F55D51685E8B165C3932BF60 /* NotificareAlert.h */,
+				EEBAF8D82793E6CB03DDBDA4288817DD /* NotificareApp.h */,
+				40F4AD8140B99C61D45C4E323170E527 /* NotificareAsset.h */,
+				C06393521469BCF778E3CF77035B1C3C /* NotificareAttachment.h */,
+				4411B02DA35B5367E0BB53ED7B534819 /* NotificareBeacon.h */,
+				85024853C32D949DC7AAE73AEE932483 /* NotificareBeacons.h */,
+				8054F2691ECA1C848233F8FC73911E8D /* NotificareBeaconsViewController.h */,
+				995579F7AC45815214F9C8D2FBBC0804 /* NotificareBrowser.h */,
+				132693AD97156C14129F965463FF37E8 /* NotificareCallback.h */,
+				AE3F4F05AB8F1A037D7EEF1DCA890EAE /* NotificareContent.h */,
+				B8DD7EE50EB856E0BBD5446C9B43A710 /* NotificareCustom.h */,
+				C710C43EC44F5AC7C62EAF4F105E7AE7 /* NotificareDevice.h */,
+				C4967D446C45A2C79FD74B94F4DFDBA7 /* NotificareDeviceInbox.h */,
+				B9E0AC8268552BE54A4238C6F8B2E891 /* NotificareDeviceViewController.h */,
+				71B900F8C32071DB29C364F42D9A71B9 /* NotificareEngine.h */,
+				AC7134FD50EFF644C2275CCA41BD60C2 /* NotificareForm.h */,
+				9365D1CDFC8FFAB5B6883663D96F6F28 /* NotificareImage.h */,
+				33CB3950188569B478EFA3DE4E266D7F /* NotificareInbox.h */,
+				42076AFBCBB9A51FEF000D14B8C1BD70 /* NotificareInboxViewController.h */,
+				00D6FF96822630ED87EA97C5D20EE505 /* NotificareLocation.h */,
+				1419A2B8D0A14EDAEA65A662A1C23296 /* NotificareMail.h */,
+				941F0860B099DC2D8169BC0C9E5E4442 /* NotificareMap.h */,
+				3A7BC09B0E78A182568FEC06C52E322D /* NotificareMKNetworkEngine.h */,
+				66010ED97AEAFFE11000E97F28C1A805 /* NotificareMKNetworkKit.h */,
+				6B20812A9C20922453FD84F6E6A4F3F4 /* NotificareMKNetworkOperation.h */,
+				78BA00DA9C4913FD6216AB6CBD816BDF /* NotificareNone.h */,
+				68D270AF92565412756C84308C72AC95 /* NotificareNotification.h */,
+				88CC705B7D23889EB29C78FE2226E966 /* NotificareNXOAuth2.h */,
+				874BAFD5612E239AC6747E4C4222D034 /* NotificareNXOAuth2AccessToken.h */,
+				60AF70DAE42F3B70A87A9D4578B091D9 /* NotificareNXOAuth2Account.h */,
+				CE86C39FA58CCA6800DE1D636F306924 /* NotificareNXOAuth2Account+Private.h */,
+				FBC6F3B2CB3181422CBF7BA0EDABC74C /* NotificareNXOAuth2AccountStore.h */,
+				A78CFB75306697E1FC4408AFE156FB81 /* NotificareNXOAuth2Client.h */,
+				CE21EEDBC72AF76BC2807F209E5D52C1 /* NotificareNXOAuth2ClientDelegate.h */,
+				07583FF0B66A57054D62146D99B23D88 /* NotificareNXOAuth2Connection.h */,
+				32C6D9A5F7C3F2B9AA25F8D40DCF2616 /* NotificareNXOAuth2ConnectionDelegate.h */,
+				3E6BE4FAEBCB00073091DECE329BC84E /* NotificareNXOAuth2Constants.h */,
+				054B87D056CF413E3607E76DCA6E45B4 /* NotificareNXOAuth2FileStreamWrapper.h */,
+				754550C5F7BD58E3FDA9F260DD2DD36C /* NotificareNXOAuth2PostBodyPart.h */,
+				54AB01AE077408CEC95747D2D3DB564B /* NotificareNXOAuth2PostBodyStream.h */,
+				15B4F3F7B556D4B8D094F7F0F3838811 /* NotificareNXOAuth2Request.h */,
+				FDB607A122062BFEEC31BC2935E91C98 /* NotificareNXOAuth2TrustDelegate.h */,
+				08E7D92A23664EB7B998A405FF97567E /* NotificarePass.h */,
+				FB9EDB3929B713A23A6338130AF10EDB /* NotificarePassbook.h */,
+				E9D24A6004E0EB2321F5F4943A571E7F /* NotificarePassbookViewController.h */,
+				4BCF12BAEF64F54A933AE34FEE6E7CC1 /* NotificareProduct.h */,
+				F2F5716A96AF61D9573799F4CD92EBFE /* NotificarePushLib.h */,
+				F214014F7F788B0DC9439D3A4167C627 /* NotificareRate.h */,
+				0344BFE235C4BF84FCD3462291EDE421 /* NotificareReachability.h */,
+				539644171AF70E6ADB34D50E7CE6E21E /* NotificareSegment.h */,
+				A146DCE8C4C22DB953334E8CECFE9328 /* NotificareSMS.h */,
+				9E343531F3BEE498976B8F15D8C860C9 /* NotificareSRWebSocket.h */,
+				AE3C99E939D4F23178EA21051DB72106 /* NotificareTelephone.h */,
+				9A67D2ED2AF401546C67191BC4DB4A97 /* NotificareURL.h */,
+				4896BC542757D1200B5902AA4404989F /* NotificareURLScheme.h */,
+				D10D06ADA952866576B984C72563FBBC /* NotificareUser.h */,
+				08920AFB504025A7F0522DCF14D2DA6A /* NotificareUserPreference.h */,
+				494CA2BD1CE45B013143D1E5AF64BDAB /* NotificareUserPreferences.h */,
+				B13EC8C385ECFAA5969D6CC21FC64E18 /* NotificareUserViewController.h */,
+				AB688A55A00273D83CBA371CC6F1660E /* NotificareVideo.h */,
+				9E285FC9BA75D8EDBAD36D04BBAB2DC1 /* NotificareWebView.h */,
+				9BBEBEF2596AB8440F5BBE3CCA4FFD7D /* NotificationDelegate.h */,
+				8F3D64C9300E2398277F2A2674B6B540 /* NotificationType.h */,
+				3BB722F4B6B66B9AB41F64EB7C356475 /* NSData+Hex.h */,
+				D0383B7BBE9F3C471BFB6B313BB50D83 /* NSData+NotificareMKBase64.h */,
+				1A2BEA4AC5726F26CA0DE7D328C092B9 /* NSData+NotificareNXOAuth2.h */,
+				C5F2DF15A6BB2D0EB0195656F60098E4 /* NSData+NotificareSRB64Additions.h */,
+				A969400D1AFBAF7F1ABF6988492980F8 /* NSDate+NotificareRFC1123.h */,
+				AC87C682D66C5B246EE3CCCFE7BAE9B6 /* NSDate+TimeAgo.h */,
+				F6A9C78678318C5F5E501D04ADF79C52 /* NSDictionary+FromPlist.h */,
+				D8AE4547A7454CB99DC2BF1DBE54C09C /* NSDictionary+NotificareRequestEncoding.h */,
+				2848CE8A9E534B7F13413CB525B1C916 /* NSString+FromBundle.h */,
+				529E3ABA91320EF87DBC667B5A5FDA0F /* NSString+NotificareMKNetworkKitAdditions.h */,
+				FDBAD08D7BDB15BF053232D985E8FFB9 /* NSString+NotificareNXOAuth2.h */,
+				3ECB564D601F058F1E4BB8EA2F36FD62 /* NSString+Utils.h */,
+				D0179AED5CA576284A69CCC1D5C06303 /* NSURL+NotificareNXOAuth2.h */,
+				A453499B5C1C9C08CAF0A2A8A917C86A /* SKProduct+priceAsString.h */,
+				7B2F8F7B3BFA3560A3690DA0CF18F40B /* UIAlertView+NotificareMKNetworkKitAdditions.h */,
+				BBF48AB65D3A13B487F347B5BC715140 /* UIImage+FromBundle.h */,
+				0A1408E65B54693F2743D26A377DC751 /* UIImageView+NotificareMKNetworkKitAdditions.h */,
+				C47B453E92CB1C2C8AF88EB3ECF836C7 /* Resources */,
+			);
+			path = "notificare-push-lib";
+			sourceTree = "<group>";
+		};
+		E6D540B60D1CC8D5BE61931CE30141D9 /* Pods-pushMapTest */ = {
+			isa = PBXGroup;
+			children = (
+				BA33A1EF07E33AF0BB311C0E411AA802 /* Info.plist */,
+				D1D994D50BC20FF853485557FD7AEAFB /* Pods-pushMapTest.modulemap */,
+				A05F8A4C5EF2D4D9BF21ADEEB13E4B29 /* Pods-pushMapTest-acknowledgements.markdown */,
+				60325B75CC73A8D4DEBE7B798F3D98DF /* Pods-pushMapTest-acknowledgements.plist */,
+				D7ED653AFFAA1660B0C4B9C512ABB17F /* Pods-pushMapTest-dummy.m */,
+				B7ECC02E3E1F582445CF2598D49A03CE /* Pods-pushMapTest-frameworks.sh */,
+				F0D294EF11707E417A7F7F6526C709AF /* Pods-pushMapTest-resources.sh */,
+				193FCD191DDC437D373C7F4EFA5C382A /* Pods-pushMapTest-umbrella.h */,
+				DDD7402570F9D44198EE3DB9C8A7EDE0 /* Pods-pushMapTest.debug.xcconfig */,
+				85C8425ACA5564A32C1655682243B80B /* Pods-pushMapTest.release.xcconfig */,
+			);
+			name = "Pods-pushMapTest";
+			path = "Target Support Files/Pods-pushMapTest";
+			sourceTree = "<group>";
+		};
+		E8E5F2A212A05770400F26EC3A9A7CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78616F647B9979B705F6A1B55B402F37 /* Pods_pushMapTest.framework */,
+				00EB988718D856E5283B095151C4DA5D /* Pods_pushMapTestTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00B55E5479B40988C44E323108087E50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E909B9C2F132397DC8FCD04D813B892 /* Pods-pushMapTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5E1E4D7AEDEDAC203079078B9C3E73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF89896679A66B63333B6D5B09EEC010 /* Pods-pushMapTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		73621C961626B8018FDC9C4A44AB8891 /* Pods-pushMapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A2D78610CAACD2CED7CE0A5203C3EE /* Build configuration list for PBXNativeTarget "Pods-pushMapTest" */;
+			buildPhases = (
+				E8BF0AA57A71550FF5FFC65E1FA2DF13 /* Sources */,
+				091C59F632D9E33B756BD5EFFA3F6363 /* Frameworks */,
+				EC5E1E4D7AEDEDAC203079078B9C3E73 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pushMapTest";
+			productName = "Pods-pushMapTest";
+			productReference = 78616F647B9979B705F6A1B55B402F37 /* Pods_pushMapTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4A521B25A34F940DBF53D3C6D446E8D /* Pods-pushMapTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9D02DAEEA2AC15A61B5FD9B0914D47 /* Build configuration list for PBXNativeTarget "Pods-pushMapTestTests" */;
+			buildPhases = (
+				D251C05B8EBF3EEC0EEEC493B58F6B51 /* Sources */,
+				02DDAB2FB392DCB7C5BEFFC08670E2E1 /* Frameworks */,
+				00B55E5479B40988C44E323108087E50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pushMapTestTests";
+			productName = "Pods-pushMapTestTests";
+			productReference = 00EB988718D856E5283B095151C4DA5D /* Pods_pushMapTestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E8E5F2A212A05770400F26EC3A9A7CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73621C961626B8018FDC9C4A44AB8891 /* Pods-pushMapTest */,
+				D4A521B25A34F940DBF53D3C6D446E8D /* Pods-pushMapTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D251C05B8EBF3EEC0EEEC493B58F6B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2891C5717C802D306E9FC69C90911B6 /* Pods-pushMapTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BF0AA57A71550FF5FFC65E1FA2DF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B723925091FD4B663BDB5913C827274C /* Pods-pushMapTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3DF187DDEC6133841EEF640BA96126D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD7402570F9D44198EE3DB9C8A7EDE0 /* Pods-pushMapTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pushMapTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pushMapTest/Pods-pushMapTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pushMapTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50FC80CC6C43320E30EBB15C22AB7158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC441682F2DF1C91B92991BFFD27E231 /* Pods-pushMapTestTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pushMapTestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pushMapTestTests/Pods-pushMapTestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pushMapTestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6544A1F1139551CE6C6C9B43404CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54DB6759D9ED6A407E58D6D962FA2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C8425ACA5564A32C1655682243B80B /* Pods-pushMapTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pushMapTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pushMapTest/Pods-pushMapTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pushMapTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE0991BBCBE986A81ACC72AA6C3CB35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F0C2709F9660D007471404C20BEAAB /* Pods-pushMapTestTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-pushMapTestTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pushMapTestTests/Pods-pushMapTestTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_pushMapTestTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE16AC72762C01C5DC595053F1F2EF4 /* Debug */,
+				C6544A1F1139551CE6C6C9B43404CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9D02DAEEA2AC15A61B5FD9B0914D47 /* Build configuration list for PBXNativeTarget "Pods-pushMapTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0991BBCBE986A81ACC72AA6C3CB35D /* Debug */,
+				50FC80CC6C43320E30EBB15C22AB7158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A2D78610CAACD2CED7CE0A5203C3EE /* Build configuration list for PBXNativeTarget "Pods-pushMapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF187DDEC6133841EEF640BA96126D5 /* Debug */,
+				F54DB6759D9ED6A407E58D6D962FA2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
